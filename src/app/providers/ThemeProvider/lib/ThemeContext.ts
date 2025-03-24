@@ -13,4 +13,3 @@ export type ThemeContent = {
 export const ThemeContext = createContext<ThemeContent>({});
 
 export const LOCAL_STORAGE_THEME_KEY = 'theme';
-
