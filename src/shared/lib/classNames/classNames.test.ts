@@ -7,7 +7,8 @@ describe('classNames', () => {
 
     test('with additional classes', () => {
         const expectedResult = 'mainClass class1 class2';
-        expect(classNames('mainClass', {}, ['class1', 'class2'])).toBe(expectedResult);
+        expect(classNames('mainClass', {}, ['class1', 'class2']))
+            .toBe(expectedResult);
     });
 
     test('with modes', () => {
